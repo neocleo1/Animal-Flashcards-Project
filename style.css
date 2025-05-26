@@ -25,11 +25,15 @@ P {
     text-align: left;
 }
 
+
+img {
+    width: 300px;
+}
+
 .image {
 
     margin: 20px;
     padding: auto;
-    width: 300px;
 }
 
 .content {
