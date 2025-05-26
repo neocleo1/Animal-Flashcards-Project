@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-card,
+.second-card,
+.third-card,
+.fourth-card {
+    border: solid lightgray 1px;
+    width: 450px;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px rgb(235, 235, 235);
+}
+
+P {
+    text-align: left;
+
+}
+
+
+#info {
+    text-align: left;
+}
+
+.image {
+
+    margin: 20px;
+    padding: auto;
+}
+
+.content {
+    box-shadow: 10px 10px 20px grey;
+    background-color: whitesmoke;
+    border: solid lightgray 1px;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+    padding: auto;
+    background-color: lightgray;
+
+}
