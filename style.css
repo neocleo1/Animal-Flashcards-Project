@@ -1,28 +1,28 @@
+.jump-nav {
+    font-size: 20px;
+    width: 170px;
+    height: 30;
+    background-color: #fefefe;
+    position: fixed;
+}
+
 body {
     display: flex;
     flex-wrap: wrap;
 }
 
-.first-card,
-.second-card,
-.third-card,
-.fourth-card {
+.card {
     border: solid lightgray 1px;
     width: 450px;
-    height: 100%;
-    margin: 20px;
-    padding: 20px;
+    height: 125%;
     box-shadow: 10px 10px rgb(235, 235, 235);
+    margin: 10px;
+    padding: 20px;
 }
 
 P {
     text-align: left;
 
-}
-
-
-#info {
-    text-align: left;
 }
 
 
@@ -36,7 +36,7 @@ img {
     padding: auto;
 }
 
-.content {
+.card__content {
     box-shadow: 10px 10px 20px grey;
     background-color: whitesmoke;
     border: solid lightgray 1px;
